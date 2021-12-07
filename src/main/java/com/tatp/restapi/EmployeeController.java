@@ -21,10 +21,10 @@ public class EmployeeController {
         return employeeRepository.findById(id);
     }
 
-    @GetMapping(params = {"gender"})
-    public List<Employee> getEmployeesByGender(@RequestParam String gender){
-        return
-    }
+//    @GetMapping(params = {"gender"})
+//    public List<Employee> getEmployeesByGender(@RequestParam String gender){
+//        return
+//    }
 
 //    @GetMapping(params = {"page", "pageSize"})
 //    public List<Employee> getEmployees
